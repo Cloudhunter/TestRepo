@@ -1,0 +1,29 @@
+{
+  // This is the modInfo.json5 file. It has basic information for your mod to be displayed
+  // If any of the values, or the file are not provided, they will be the defaults listed under each item
+  // How you want your mod to be displayed. If blank, will be the repo name.
+  // Default: The repo name.
+  "name": "Test Moddddd",
+  // A short description. Longer descriptions are used as the project page, and are markdown in description.md
+  // Default: Blank
+  "description": "This is a test mod. Can I say more than that?",
+  // An image to be used as the display image for your mod. Should have an equal size and width, and be maximum 250 x 250 pixels
+  // Default: A placeholder image
+  "imageURL": "https://cdn.creeper.host/website/logodevice.png",
+  // This is a freeform place to put users. They need valid github names, and will be listed as project authors in order.
+  // Default: The repo owner as the author
+  "authors": [ 
+    {
+      "name": "Cloudhunter",
+      "role": "Author"
+    },
+    {
+      "name": "CreeperHost",
+      "role": "Organisation"
+    },
+    {
+      "name": "Slowpoke101",
+      "role": "Mascot"
+    }
+  ]
+}
